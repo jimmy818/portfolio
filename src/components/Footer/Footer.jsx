@@ -37,7 +37,7 @@ const Footer = () => {
         <div className={css.right}>
           <div className={css.info}>
             <span className="secondaryText">Information</span>
-            <p>123 Yuile Court, L6Y 5J5, Brampton Ontario, Canada</p>
+            <p>69 Tulip Drive, L6Y 3W8, Brampton Ontario, Canada</p>
           </div>
           <ul className={css.menu}>
             <li>Services</li>

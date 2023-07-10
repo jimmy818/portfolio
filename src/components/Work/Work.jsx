@@ -27,7 +27,8 @@ const Work = () => {
                 </div>
                 <div className={css.role}>
                   <h1>{exp.role}</h1>
-                  <p>{exp.detail}</p>
+                  <p dangerouslySetInnerHTML={ { __html: exp.detail } }></p>
+                  }
                 </div>
               </motion.div>
             );
